@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#demostracion">Resultado final</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#ingredientes">Preparacion</a>
+        </nav>
+
+    </header>
+    
+
+
+    <section class="receta">
+
+        <article class="contenedor-receta">
+            <header class="header-receta">
+                <h1 class="titulo">Patatas fritas</h1>
+                <p>Receta de patatas fritas caseras.</p>
+            </header>
+            <div class="contenedor-img">
+                <img src="./img/papa-fritas.png" alt="foto-papa-fritas" width="400">
+            </div>
+
+            <div class="ingredientes" id="ingredientes">
+                <h2 class="subTitulo">Ingredientes</h2>
+                <ul>
+                    <li>3 o 4 patatas (300g. )</li>
+                    <li>4 dientes de ajo.</li>
+                    <li>Aceite de oliva.</li>
+                    <li>Sal.</li>
+                </ul>
+            </div>
+
+            <div class="elaboracion" id="elaboracion">
+                <h2 class="subTitulo">Elaboracion (Pasos)</h2>
+                <ol type="1" >
+                    <li>Calentar aceite en una sarten.</li>
+                    <li>Añadir las patatas cortadas, la sal y los ajos.</li>
+                    <li>Freir a gusto.</li>
+                    <li>Servir en plato.</li>
+                </ol>
+            </div>
+
+            <div class="demostracion" id="demostracion">
+                <h2 class="subTitulo">Demostracion</h2>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/5llH9SHOgDg?si=I4w1MwZN_XJ1IvZK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+            </div>
+
+            <div class="tabla-nutricional">
+                <h2 class="subTitulo">Informacion nutricional</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Proteinas</th>
+                            <th>Carbohidratos</th>
+                            <th>Calorias</th>
+                            <th>Grasas totales</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>4gr</td>
+                            <td>89gr</td>
+                            <td>560kcal</td>
+                            <td>26gr</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sonido-patatas">
+                <h2>Sonido de papas en aceite</h2>
+                <audio src="./audio/sonido-papas.mp3" controls></audio>
+            </div>
+
+        </article>
+    </section>
+
+    <section class="formulario">
+
+        <h3>Queremos saber tu opinion</h3>
+        <form action="" method="POST">
+
+            <fieldset>
+                <legend>Como te salieron las patatas?</legend>
+
+                <div class="contenedor-input">
+                    <label for="crocante">Crocante</label>
+                    <input type="range" name="crocante" id="crocante">
+                </div>
+
+                <div class="contenedor-input">
+                    <label for="sabor">Sabor</label>
+                    <input type="range" name="sabor" id="sabor">
+                </div>
+
+                <div class="contenedor-input">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="range" name="cantidad" id="cantidad">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Envianos un mensaje</legend>
+
+                <div class="contenedor-input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <div class="contenedor-input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                
+                <div class="contenedor-input">
+                    <label for="opinion">Mensaje</label>
+                    <textarea name="opinion" id="opinion"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+
+
+        </form>
+
+        
+    </section>
+
+    <footer>
+        <div class="contacto" id="contacto">
+            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
+            <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
